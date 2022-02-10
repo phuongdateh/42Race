@@ -8,6 +8,7 @@
 import Foundation
 
 final class NetworkManager: ApiProtocol {
+    static let shared = NetworkManager()
     var provider: URLSession
 
     init(provider: URLSession = URLSession.shared) {
