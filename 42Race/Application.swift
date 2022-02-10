@@ -16,7 +16,7 @@ final class Application {
     func presentView(with window: UIWindow?) {
         self.window = window
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5, execute: { [weak self] in
+        DispatchQueue.main.asyncAfter(deadline: .now(), execute: { [weak self] in
             self?.presentRootView()
         })
     }

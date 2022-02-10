@@ -10,7 +10,7 @@ import XCTest
 
 class BusinessDetailTests: XCTestCase {
 
-    var sut: BusinessDetail!
+    var sut: BusinessDetailResult!
 
     override func setUp() {
         sut = TestUtilities.makeSut(from: sampleData)

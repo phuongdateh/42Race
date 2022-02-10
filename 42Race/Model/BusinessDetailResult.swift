@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct BusinessDetail: Decodable {
+struct BusinessDetailResult: Decodable {
     let id: String
     let alias: String?
     let name: String?
