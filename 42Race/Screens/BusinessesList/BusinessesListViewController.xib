@@ -11,6 +11,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BusinessesListViewController" customModule="_2Race" customModuleProvider="target">
             <connections>
+                <outlet property="collectionView" destination="Z4m-Tg-bEk" id="y7U-Wr-PZV"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

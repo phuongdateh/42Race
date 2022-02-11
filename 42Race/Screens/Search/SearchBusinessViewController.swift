@@ -54,6 +54,7 @@ class SearchBusinessViewController: ViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        title = "Search"
         view.backgroundColor = .white
 
         segmentedControl.setTitle("Business", forSegmentAt: 0)
@@ -91,7 +92,9 @@ extension SearchBusinessViewController: UITableViewDelegate, UITableViewDataSour
 
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let text = viewModel.dataForCell(indexPath: indexPath)
-        
+        let viewModel = BusinessesListViewModel(businessData: text, searchType: searchType == 0 ? .business : .phone)
+        let vc = BusinessesListViewController(viewModel: viewModel)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

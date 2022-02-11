@@ -29,7 +29,8 @@ final class Application {
         UIView.transition(with: window, duration: 0.5,
                           options: .transitionFlipFromLeft,
                           animations: { [weak self] in
-            self?.window?.rootViewController = SearchBusinessViewController(viewModel: SearchBusinessViewModel())
+            let nav = UINavigationController(rootViewController: SearchBusinessViewController(viewModel: SearchBusinessViewModel()))
+            self?.window?.rootViewController = nav
         }, completion: nil)
     }
 }
