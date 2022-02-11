@@ -27,6 +27,7 @@
 		E94696F127A24BC40095E48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94696EF27A24BC40095E48C /* Main.storyboard */; };
 		E94696F327A24BC60095E48C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E94696F227A24BC60095E48C /* Assets.xcassets */; };
 		E94696F627A24BC60095E48C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94696F427A24BC60095E48C /* LaunchScreen.storyboard */; };
+		E958114427B6C7C1001F5D74 /* BusinessDetailViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E958114327B6C7C1001F5D74 /* BusinessDetailViewModelTests.swift */; };
 		E99A7CE327B64FD50003BF71 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CE127B64FD50003BF71 /* BusinessCell.swift */; };
 		E99A7CE427B64FD50003BF71 /* BusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99A7CE227B64FD50003BF71 /* BusinessCell.xib */; };
 		E99A7CE627B654020003BF71 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CE527B654020003BF71 /* RatingView.swift */; };
@@ -95,6 +96,7 @@
 		E94696F527A24BC60095E48C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E94696F727A24BC60095E48C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94696FC27A24BC70095E48C /* 42RaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 42RaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E958114327B6C7C1001F5D74 /* BusinessDetailViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewModelTests.swift; sourceTree = "<group>"; };
 		E99A7CE127B64FD50003BF71 /* BusinessCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		E99A7CE227B64FD50003BF71 /* BusinessCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessCell.xib; sourceTree = "<group>"; };
 		E99A7CE527B654020003BF71 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
@@ -205,6 +207,7 @@
 		E920536D27B63E3D00B180FB /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E958114227B6C7AC001F5D74 /* BusinessDetail */,
 				E9B8B25527B64854008FB9EA /* Search */,
 				E920536E27B63E4A00B180FB /* BusinessesList */,
 			);
@@ -291,6 +294,14 @@
 				E9D6B7E727B511A2003661C0 /* SearchBusinessViewModel.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		E958114227B6C7AC001F5D74 /* BusinessDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E958114327B6C7C1001F5D74 /* BusinessDetailViewModelTests.swift */,
+			);
+			path = BusinessDetail;
 			sourceTree = "<group>";
 		};
 		E99A7CE027B64C5D0003BF71 /* Cell */ = {
@@ -630,6 +641,7 @@
 				E9B8B25727B64861008FB9EA /* SearchBusinessViewModelTests.swift in Sources */,
 				E9F8DDEB27B4FFF5006FFE34 /* NetworkManagerTests.swift in Sources */,
 				E90CD8CB27B3B15C00E6F335 /* BusinessDetailTests.swift in Sources */,
+				E958114427B6C7C1001F5D74 /* BusinessDetailViewModelTests.swift in Sources */,
 				E920537027B63E5500B180FB /* BusinessesListViewModelTests.swift in Sources */,
 				E90CD8BF27B3AF3F00E6F335 /* String.swift in Sources */,
 				E920537227B6426200B180FB /* MockNetworkManager.swift in Sources */,

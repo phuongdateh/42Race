@@ -283,8 +283,8 @@ enum ApiTarget: TargetType {
     
     var parameters: [String : Any]? {
         var parameters: [String: Any] = [
-            "longitude": -122.399643,
-            "latitude": 37.786942
+            "longitude": 103.78667472615952,
+            "latitude": 1.296940431677624
         ]
 
         switch self {

@@ -24,5 +24,5 @@
  * Singleton Design Parten: WeatherAPIService
  * Dependence Injection: NetworkManager, CoreDataManager,
  * MVVM Architecture
-
+ * Default location are on 42Race 
 
