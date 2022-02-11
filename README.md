@@ -30,6 +30,5 @@
 <img width="1208" alt="image" src="https://user-images.githubusercontent.com/19536343/153632349-4b79b399-46c9-4c65-b5d2-9ac0e6862887.png">
 
 ### Image in app
-![image](https://user-images.githubusercontent.com/19536343/153632748-68b17be9-78bb-4441-b946-517748495981.png)
-![image](https://user-images.githubusercontent.com/19536343/153632785-71c503ce-9e14-4738-844a-0ff630218e9d.png)
-![image](https://user-images.githubusercontent.com/19536343/153632821-18ab7505-9dc3-4000-b29e-d5b5fe95e312.png)
+| ![image](https://user-images.githubusercontent.com/19536343/153632748-68b17be9-78bb-4441-b946-517748495981.png)  | ![image](https://user-images.githubusercontent.com/19536343/153632785-71c503ce-9e14-4738-844a-0ff630218e9d.png) | ![image](https://user-images.githubusercontent.com/19536343/153632821-18ab7505-9dc3-4000-b29e-d5b5fe95e312.png) |
+
