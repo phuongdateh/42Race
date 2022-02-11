@@ -5,7 +5,7 @@
 
 - [x] 1. Programming language: Swift
 - [x] 2. Design app's architecture used MVVM
-- [x] 3. Completed total 5 usecases
+- [x] 3. Cover Unit Test for all viewmodels and NetworkManager
 - [x] 4. Write UnitTests 
 - [x] 5. Write UITest
 - [x] 6. Readme file
@@ -26,3 +26,5 @@
  * MVVM Architecture
  * Default location are on 42Race 
 
+### Reach coverage 66% 
+<img width="1208" alt="image" src="https://user-images.githubusercontent.com/19536343/153632349-4b79b399-46c9-4c65-b5d2-9ac0e6862887.png">
