@@ -63,6 +63,9 @@ extension BusinessesListViewController: UICollectionViewDelegate, UICollectionVi
 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let data = viewModel.dataForCell(at: indexPath)
+        let viewModel = BusinessDetailViewModel(businessId: data.id)
+        let vc = BusinessDetailViewController(viewModel: viewModel)
+        navigationController?.pushViewController(vc, animated: true)
     }
 }
 

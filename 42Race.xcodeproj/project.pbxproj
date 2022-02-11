@@ -31,6 +31,9 @@
 		E99A7CE427B64FD50003BF71 /* BusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99A7CE227B64FD50003BF71 /* BusinessCell.xib */; };
 		E99A7CE627B654020003BF71 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CE527B654020003BF71 /* RatingView.swift */; };
 		E99A7CE927B659580003BF71 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CE827B659580003BF71 /* UIImageView.swift */; };
+		E99A7CED27B65F0F0003BF71 /* BusinessDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CEB27B65F0F0003BF71 /* BusinessDetailViewController.swift */; };
+		E99A7CEE27B65F0F0003BF71 /* BusinessDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E99A7CEC27B65F0F0003BF71 /* BusinessDetailViewController.xib */; };
+		E99A7CF027B65F200003BF71 /* BusinessDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99A7CEF27B65F200003BF71 /* BusinessDetailViewModel.swift */; };
 		E9A9125D27B4EFE200142AE7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A9125C27B4EFE200142AE7 /* Constants.swift */; };
 		E9AD834327B39E3E00C338AE /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD834227B39E3E00C338AE /* ApiProtocol.swift */; };
 		E9AD834527B39EF900C338AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD834427B39EF900C338AE /* NetworkManager.swift */; };
@@ -96,6 +99,9 @@
 		E99A7CE227B64FD50003BF71 /* BusinessCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessCell.xib; sourceTree = "<group>"; };
 		E99A7CE527B654020003BF71 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		E99A7CE827B659580003BF71 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		E99A7CEB27B65F0F0003BF71 /* BusinessDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewController.swift; sourceTree = "<group>"; };
+		E99A7CEC27B65F0F0003BF71 /* BusinessDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessDetailViewController.xib; sourceTree = "<group>"; };
+		E99A7CEF27B65F200003BF71 /* BusinessDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailViewModel.swift; sourceTree = "<group>"; };
 		E9A9125C27B4EFE200142AE7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		E9AD834227B39E3E00C338AE /* ApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
 		E9AD834427B39EF900C338AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
@@ -269,6 +275,7 @@
 		E946971927A282D90095E48C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E99A7CEA27B65EF90003BF71 /* BusinessDetail */,
 				E9D57E4C27B612FF0073D6E0 /* BusinessesList */,
 				E946971A27A282E80095E48C /* Search */,
 			);
@@ -301,6 +308,16 @@
 				E99A7CE827B659580003BF71 /* UIImageView.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E99A7CEA27B65EF90003BF71 /* BusinessDetail */ = {
+			isa = PBXGroup;
+			children = (
+				E99A7CEB27B65F0F0003BF71 /* BusinessDetailViewController.swift */,
+				E99A7CEF27B65F200003BF71 /* BusinessDetailViewModel.swift */,
+				E99A7CEC27B65F0F0003BF71 /* BusinessDetailViewController.xib */,
+			);
+			path = BusinessDetail;
 			sourceTree = "<group>";
 		};
 		E9A9125B27B4EFD100142AE7 /* Constants */ = {
@@ -495,6 +512,7 @@
 				E94696F327A24BC60095E48C /* Assets.xcassets in Resources */,
 				E94696F127A24BC40095E48C /* Main.storyboard in Resources */,
 				E9D6B7ED27B514A1003661C0 /* AutoCompleteCell.xib in Resources */,
+				E99A7CEE27B65F0F0003BF71 /* BusinessDetailViewController.xib in Resources */,
 				E99A7CE427B64FD50003BF71 /* BusinessCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -583,6 +601,7 @@
 				E9E8531427A8B88F008A1101 /* Application.swift in Sources */,
 				E9D57E4F27B6131D0073D6E0 /* BusinessesListViewController.swift in Sources */,
 				E9D6B7EC27B514A1003661C0 /* AutoCompleteCell.swift in Sources */,
+				E99A7CF027B65F200003BF71 /* BusinessDetailViewModel.swift in Sources */,
 				E90CD8C727B3B0FA00E6F335 /* AutoCompleteResults.swift in Sources */,
 				E9A9125D27B4EFE200142AE7 /* Constants.swift in Sources */,
 				E9D6B7E827B511A2003661C0 /* SearchBusinessViewModel.swift in Sources */,
@@ -592,6 +611,7 @@
 				E94696EE27A24BC40095E48C /* ViewController.swift in Sources */,
 				E9D57E5227B6132C0073D6E0 /* BusinessesListViewModel.swift in Sources */,
 				E9D6B7F027B51696003661C0 /* Debouncer.swift in Sources */,
+				E99A7CED27B65F0F0003BF71 /* BusinessDetailViewController.swift in Sources */,
 				E99A7CE327B64FD50003BF71 /* BusinessCell.swift in Sources */,
 				E9AD834327B39E3E00C338AE /* ApiProtocol.swift in Sources */,
 				E9E8531727A8BCA9008A1101 /* SearchBusinessViewController.swift in Sources */,

@@ -35,4 +35,20 @@ struct BusinessDetailResult: Decodable {
         case hours
         case location
     }
+
+    func getHoursOperation() -> String {
+        let data = hours.first
+        let firstObj = data?.open.first
+        let start = firstObj?.start ?? ""
+        let end = firstObj?.end ?? ""
+        return "\(data?.isOpenNow == true ? "Open" : "Closed") \(insertCharacter(text: start)) - \(insertCharacter(text: end))"
+    }
+
+    func insertCharacter(text: String) -> String {
+        var newText = text
+        let insertIndex = newText.index(newText.startIndex, offsetBy: 2)
+        newText.insert(":", at: insertIndex)
+        return newText
+    }
 }
+
