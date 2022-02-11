@@ -1,20 +1,24 @@
 //
-//  NetworkManager.swift
-//  42Race
+//  MockNetworkManager.swift
+//  42RaceTests
 //
-//  Created by Thomas on 09/02/2022.
+//  Created by Thomas on 11/02/2022.
 //
 
 import Foundation
+@testable import _2Race
 
-class NetworkManager: ApiProtocol {
-    static let shared = NetworkManager()
+class MockNetworkManager: ApiProtocol {
+
+    static let shared = MockNetworkManager()
     var provider: URLSession
-
-    init(provider: URLSession = URLSession.shared) {
-        self.provider = provider
-    }
     
+    init() {
+        let configuration = URLSessionConfiguration.ephemeral
+        configuration.protocolClasses = [MockURLProtocol.self]
+        provider = URLSession(configuration: configuration)
+    }
+
     func getAutocomplete(text: String,
                          completion: @escaping CompletionResult<AutoCompleteResults>) {
         request(target: .autocomplete(text), completion)

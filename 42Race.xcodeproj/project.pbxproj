@@ -19,6 +19,8 @@
 		E90CD8CD27B3B1B200E6F335 /* BusinessDetailExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90CD8CC27B3B1B200E6F335 /* BusinessDetailExt.swift */; };
 		E90CD8D027B3B56E00E6F335 /* SearchBusinessesResultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90CD8CF27B3B56E00E6F335 /* SearchBusinessesResultsTests.swift */; };
 		E90CD8D227B3B73000E6F335 /* AutoCompleteResultsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90CD8D127B3B73000E6F335 /* AutoCompleteResultsTests.swift */; };
+		E920537027B63E5500B180FB /* BusinessesListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920536F27B63E5500B180FB /* BusinessesListViewModelTests.swift */; };
+		E920537227B6426200B180FB /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E920537127B6426200B180FB /* MockNetworkManager.swift */; };
 		E94696EA27A24BC40095E48C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94696E927A24BC40095E48C /* AppDelegate.swift */; };
 		E94696EE27A24BC40095E48C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94696ED27A24BC40095E48C /* ViewController.swift */; };
 		E94696F127A24BC40095E48C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94696EF27A24BC40095E48C /* Main.storyboard */; };
@@ -28,6 +30,11 @@
 		E9AD834327B39E3E00C338AE /* ApiProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD834227B39E3E00C338AE /* ApiProtocol.swift */; };
 		E9AD834527B39EF900C338AE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD834427B39EF900C338AE /* NetworkManager.swift */; };
 		E9AD834827B3A44100C338AE /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AD834727B3A44100C338AE /* Business.swift */; };
+		E9B8B25427B647D2008FB9EA /* DebouncerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8B25327B647D2008FB9EA /* DebouncerTests.swift */; };
+		E9B8B25727B64861008FB9EA /* SearchBusinessViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B8B25627B64861008FB9EA /* SearchBusinessViewModelTests.swift */; };
+		E9D57E4F27B6131D0073D6E0 /* BusinessesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D57E4D27B6131D0073D6E0 /* BusinessesListViewController.swift */; };
+		E9D57E5027B6131D0073D6E0 /* BusinessesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D57E4E27B6131D0073D6E0 /* BusinessesListViewController.xib */; };
+		E9D57E5227B6132C0073D6E0 /* BusinessesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D57E5127B6132C0073D6E0 /* BusinessesListViewModel.swift */; };
 		E9D6B7E827B511A2003661C0 /* SearchBusinessViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D6B7E727B511A2003661C0 /* SearchBusinessViewModel.swift */; };
 		E9D6B7EC27B514A1003661C0 /* AutoCompleteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D6B7EA27B514A1003661C0 /* AutoCompleteCell.swift */; };
 		E9D6B7ED27B514A1003661C0 /* AutoCompleteCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9D6B7EB27B514A1003661C0 /* AutoCompleteCell.xib */; };
@@ -64,6 +71,8 @@
 		E90CD8CC27B3B1B200E6F335 /* BusinessDetailExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetailExt.swift; sourceTree = "<group>"; };
 		E90CD8CF27B3B56E00E6F335 /* SearchBusinessesResultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessesResultsTests.swift; sourceTree = "<group>"; };
 		E90CD8D127B3B73000E6F335 /* AutoCompleteResultsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteResultsTests.swift; sourceTree = "<group>"; };
+		E920536F27B63E5500B180FB /* BusinessesListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesListViewModelTests.swift; sourceTree = "<group>"; };
+		E920537127B6426200B180FB /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
 		E94696E627A24BC40095E48C /* 42Race.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 42Race.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E94696E927A24BC40095E48C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E94696ED27A24BC40095E48C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +85,11 @@
 		E9AD834227B39E3E00C338AE /* ApiProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProtocol.swift; sourceTree = "<group>"; };
 		E9AD834427B39EF900C338AE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		E9AD834727B3A44100C338AE /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		E9B8B25327B647D2008FB9EA /* DebouncerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebouncerTests.swift; sourceTree = "<group>"; };
+		E9B8B25627B64861008FB9EA /* SearchBusinessViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewModelTests.swift; sourceTree = "<group>"; };
+		E9D57E4D27B6131D0073D6E0 /* BusinessesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesListViewController.swift; sourceTree = "<group>"; };
+		E9D57E4E27B6131D0073D6E0 /* BusinessesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BusinessesListViewController.xib; sourceTree = "<group>"; };
+		E9D57E5127B6132C0073D6E0 /* BusinessesListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessesListViewModel.swift; sourceTree = "<group>"; };
 		E9D6B7E727B511A2003661C0 /* SearchBusinessViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBusinessViewModel.swift; sourceTree = "<group>"; };
 		E9D6B7EA27B514A1003661C0 /* AutoCompleteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoCompleteCell.swift; sourceTree = "<group>"; };
 		E9D6B7EB27B514A1003661C0 /* AutoCompleteCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AutoCompleteCell.xib; sourceTree = "<group>"; };
@@ -144,6 +158,23 @@
 			path = Results;
 			sourceTree = "<group>";
 		};
+		E920536D27B63E3D00B180FB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				E9B8B25527B64854008FB9EA /* Search */,
+				E920536E27B63E4A00B180FB /* BusinessesList */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		E920536E27B63E4A00B180FB /* BusinessesList */ = {
+			isa = PBXGroup;
+			children = (
+				E920536F27B63E5500B180FB /* BusinessesListViewModelTests.swift */,
+			);
+			path = BusinessesList;
+			sourceTree = "<group>";
+		};
 		E94696DD27A24BC40095E48C = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +215,8 @@
 		E94696FF27A24BC70095E48C /* 42RaceTests */ = {
 			isa = PBXGroup;
 			children = (
+				E9B8B25227B647C7008FB9EA /* Helpers */,
+				E920536D27B63E3D00B180FB /* Screens */,
 				E9E1597627B4F55600FB777D /* Services */,
 				E90CD8C227B3B01A00E6F335 /* Model */,
 				E90CD8BD27B3AF3700E6F335 /* Extension */,
@@ -194,6 +227,7 @@
 		E946971927A282D90095E48C /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				E9D57E4C27B612FF0073D6E0 /* BusinessesList */,
 				E946971A27A282E80095E48C /* Search */,
 			);
 			path = Screens;
@@ -249,6 +283,32 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		E9B8B25227B647C7008FB9EA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E9B8B25327B647D2008FB9EA /* DebouncerTests.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E9B8B25527B64854008FB9EA /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				E9B8B25627B64861008FB9EA /* SearchBusinessViewModelTests.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E9D57E4C27B612FF0073D6E0 /* BusinessesList */ = {
+			isa = PBXGroup;
+			children = (
+				E9D57E5127B6132C0073D6E0 /* BusinessesListViewModel.swift */,
+				E9D57E4D27B6131D0073D6E0 /* BusinessesListViewController.swift */,
+				E9D57E4E27B6131D0073D6E0 /* BusinessesListViewController.xib */,
+			);
+			path = BusinessesList;
+			sourceTree = "<group>";
+		};
 		E9D6B7E927B5147F003661C0 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
@@ -271,6 +331,7 @@
 			children = (
 				E9E1597727B4F55C00FB777D /* Network */,
 				E9F8DDE827B4FFC2006FFE34 /* MockURLProtocol.swift */,
+				E920537127B6426200B180FB /* MockNetworkManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -365,6 +426,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D57E5027B6131D0073D6E0 /* BusinessesListViewController.xib in Resources */,
 				E9E8531827A8BCA9008A1101 /* SearchBusinessViewController.xib in Resources */,
 				E94696F627A24BC60095E48C /* LaunchScreen.storyboard in Resources */,
 				E94696F327A24BC60095E48C /* Assets.xcassets in Resources */,
@@ -391,6 +453,7 @@
 				E9AD834527B39EF900C338AE /* NetworkManager.swift in Sources */,
 				E9AD834827B3A44100C338AE /* Business.swift in Sources */,
 				E9E8531427A8B88F008A1101 /* Application.swift in Sources */,
+				E9D57E4F27B6131D0073D6E0 /* BusinessesListViewController.swift in Sources */,
 				E9D6B7EC27B514A1003661C0 /* AutoCompleteCell.swift in Sources */,
 				E90CD8C727B3B0FA00E6F335 /* AutoCompleteResults.swift in Sources */,
 				E9A9125D27B4EFE200142AE7 /* Constants.swift in Sources */,
@@ -398,6 +461,7 @@
 				E90CD8B827B3A74100E6F335 /* BusinessDetailResult.swift in Sources */,
 				E9D9D00D27B3BBDB00C0F5AA /* TargetType.swift in Sources */,
 				E94696EE27A24BC40095E48C /* ViewController.swift in Sources */,
+				E9D57E5227B6132C0073D6E0 /* BusinessesListViewModel.swift in Sources */,
 				E9D6B7F027B51696003661C0 /* Debouncer.swift in Sources */,
 				E9AD834327B39E3E00C338AE /* ApiProtocol.swift in Sources */,
 				E9E8531727A8BCA9008A1101 /* SearchBusinessViewController.swift in Sources */,
@@ -412,9 +476,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B8B25727B64861008FB9EA /* SearchBusinessViewModelTests.swift in Sources */,
 				E9F8DDEB27B4FFF5006FFE34 /* NetworkManagerTests.swift in Sources */,
 				E90CD8CB27B3B15C00E6F335 /* BusinessDetailTests.swift in Sources */,
+				E920537027B63E5500B180FB /* BusinessesListViewModelTests.swift in Sources */,
 				E90CD8BF27B3AF3F00E6F335 /* String.swift in Sources */,
+				E920537227B6426200B180FB /* MockNetworkManager.swift in Sources */,
+				E9B8B25427B647D2008FB9EA /* DebouncerTests.swift in Sources */,
 				E90CD8D227B3B73000E6F335 /* AutoCompleteResultsTests.swift in Sources */,
 				E90CD8D027B3B56E00E6F335 /* SearchBusinessesResultsTests.swift in Sources */,
 				E90CD8CD27B3B1B200E6F335 /* BusinessDetailExt.swift in Sources */,

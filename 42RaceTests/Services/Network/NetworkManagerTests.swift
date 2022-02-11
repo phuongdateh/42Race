@@ -102,7 +102,7 @@ class NetworkManagerTests: XCTestCase {
             return (HTTPURLResponse(), ApiTarget.searchByPhone("").sampleData)
         }
 
-        networkManager.searchByBusinesses(name: "123123123") { result in
+        networkManager.searchByPhone(phone: "123123123") { result in
             switch result {
             case .success(let data):
                 XCTAssertFalse(data.businesses.isEmpty)
@@ -120,7 +120,7 @@ class NetworkManagerTests: XCTestCase {
             return (HTTPURLResponse(), Data())
         }
 
-        networkManager.searchByBusinesses(name: "123123123") { result in
+        networkManager.searchByPhone(phone: "123123123") { result in
             switch result {
             case .failure:
                 expectation.fulfill()

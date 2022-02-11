@@ -14,10 +14,10 @@ protocol SearchBusinessViewModelType {
 }
 
 final class SearchBusinessViewModel: SearchBusinessViewModelType {
-    let networkManager: NetworkManager
+    let networkManager: ApiProtocol
     let debouncer: Debouncer
 
-    init(networkManager: NetworkManager = NetworkManager.shared,
+    init(networkManager: ApiProtocol = NetworkManager.shared,
          debouncer: Debouncer = Debouncer(delay: 0.5)) {
         self.networkManager = networkManager
         self.debouncer = debouncer
@@ -39,7 +39,7 @@ final class SearchBusinessViewModel: SearchBusinessViewModelType {
             case .success(let data):
                 self?.categories = data.categories
                 completion?()
-            case .failure(let error):
+            case .failure:
                 completion?()
             }
         }
